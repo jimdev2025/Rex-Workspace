@@ -4,5 +4,6 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Rex-Commons" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Rex-Phone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Rex-Phone/Rex-Phone" vcs="Git" />
   </component>
 </project>

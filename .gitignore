@@ -4,4 +4,6 @@
 *.log
 build/
 local.properties
+/Rex-Commons/
+/Rex-Phone/
 

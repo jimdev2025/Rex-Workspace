@@ -4,9 +4,38 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/Rex-Commons" name="Rex-Commons">
+                <projects>
+                  <project path="$PROJECT_DIR$/Rex-Commons" />
+                  <project path="$PROJECT_DIR$/Rex-Commons/commons" />
+                  <project path="$PROJECT_DIR$/Rex-Commons/samples" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/Rex-Phone" name="Rex-Phone">
+                <projects>
+                  <project path="$PROJECT_DIR$/Rex-Phone" />
+                  <project path="$PROJECT_DIR$/Rex-Phone/app" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="jbr-21" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Rex-Commons" />
+            <option value="$PROJECT_DIR$/Rex-Commons/commons" />
+            <option value="$PROJECT_DIR$/Rex-Commons/samples" />
+            <option value="$PROJECT_DIR$/Rex-Phone" />
+            <option value="$PROJECT_DIR$/Rex-Phone/app" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
